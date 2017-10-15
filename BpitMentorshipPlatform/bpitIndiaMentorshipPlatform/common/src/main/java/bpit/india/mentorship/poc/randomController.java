@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class randomController {
 
-	@RequestMapping(value="/qwe")
+	@RequestMapping(value="/")
 	public String hey()
 	{
 		return "index";
